@@ -1,0 +1,86 @@
+.footer {
+
+	&__logo {}
+
+	&__text {
+		color: #4D5053;
+		font-family: Jost;
+		font-size: 22px;
+		line-height: 150%;
+		letter-spacing: 0.22px;
+		margin: 0px 0px 18px 0px;
+		max-width: 393px;
+
+		@media(max-width: 767.98px) {
+			font-size: 20px;
+		}
+
+		@media(max-width: 467.98px) {
+			font-size: 18px;
+		}
+	}
+
+	&__socials {
+		display: flex;
+		column-gap: 54px;
+	}
+
+	&__title {
+		color: #292F36;
+		font-family: "DM Serif Display";
+		font-size: 25px;
+		line-height: 125%;
+		margin: 0px 0px 9px 0px;
+	}
+
+	&__list {}
+
+	&__item {}
+
+	&__link {
+		color: #4D5053;
+		font-family: Jost;
+		font-size: 22px;
+		line-height: 300%;
+		letter-spacing: 0.22px;
+		text-decoration: none;
+		transition: all 0.3s ease-in 0s;
+
+		&:hover {
+			color: #CDA274;
+		}
+	}
+
+	&__block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0px 0px 46px;
+	}
+
+	&__bottom {
+		color: #4D5053;
+		font-family: Jost;
+		font-size: 22px;
+		line-height: 150%;
+		letter-spacing: 0.22px;
+		text-decoration: none;
+		transition: all 0.3s ease-in 0s;
+
+		&:hover {
+			color: #CDA274;
+		}
+	}
+}
+
+.container {}
+
+.row {
+	&__top {
+		margin: 0px 0px 130px 0px;
+
+		@media(max-width: 767.98px) {
+			margin: 0px 0px 30px 0px;
+		}
+	}
+}
